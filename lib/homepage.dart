@@ -7,7 +7,7 @@ import 'package:projecthttp/watchlist.dart';
 
 import 'movie_details_page.dart';
 
-void main() => runApp(const MyApp());
+// void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -177,19 +177,36 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       drawer: Drawer(
-        child: ListView(
+        child: Column(
           children: [
-            ListTile(
-              title: const Text('App settings'),
-              onTap: navigateToSettingsPage,
+            Expanded(
+              child: ListView(
+                children: [
+                  ListTile(
+                    title: const Text('App settings'),
+                    onTap: navigateToSettingsPage,
+                  ),
+                  ListTile(
+                    title: const Text('Watchlist'),
+                    onTap: navigateToWatchlistPage,
+                  ),
+                ],
+              ),
             ),
-      ListTile(
-        title: const Text('Watchlist'),
-        onTap: navigateToWatchlistPage,
-      )
+            const Align(
+              alignment: Alignment.bottomCenter,
+              child: Padding(
+                padding: EdgeInsets.only(bottom: 16.0),
+                child: Text(
+                  'V1.0',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
           ],
         ),
       ),
+
       body: Center(
         child: FutureBuilder<List<Movie>>(
           future: futureMovies,

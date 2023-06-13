@@ -84,7 +84,7 @@ class _LoginFormState extends State<LoginForm> {
               if (_formKey.currentState?.validate() == true) {
                 _formKey.currentState?.save();
                 print("$_email $_password");
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const homepage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()));
               }
             },
             child: const Text('Login'),
@@ -105,7 +105,7 @@ class _LoginFormState extends State<LoginForm> {
               textStyle: const TextStyle(fontSize: 20),
             ),
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => const LupaPass()));
+              // Navigator.push(context, MaterialPageRoute(builder: (context) => const LupaPass()));
             },
             child: const Text('Lupa password'),
           ),

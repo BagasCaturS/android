@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:projecthttp/settings.dart';
 import 'package:projecthttp/watchlist.dart';
+import 'package:projecthttp/accounts.dart';
 
 import 'movie_details_page.dart';
 
@@ -100,6 +101,12 @@ class _HomePageState extends State<HomePage> {
       MaterialPageRoute(builder: (context) => WatchlistPage(watchlistMovies: [],)),
     );
   }
+  void navigateToAccountsPage() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => AccountPage()),
+    );
+  }
   //perlu implementasi profile
   // void navigateToProfile() {
   //   Navigator.push(
@@ -189,6 +196,10 @@ class _HomePageState extends State<HomePage> {
                   ListTile(
                     title: const Text('Watchlist'),
                     onTap: navigateToWatchlistPage,
+                  ),
+                  ListTile(
+                    title: const Text('Profile'),
+                    onTap: navigateToAccountsPage,
                   ),
                 ],
               ),

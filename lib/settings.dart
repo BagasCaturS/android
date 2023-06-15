@@ -19,7 +19,7 @@ class _SettingPageState extends State<SettingPage> {
       body: ListView(
         children: [
           ListTile(
-            title: Text('Video Playback'),
+            title: const Text('Video Playback'),
             trailing: Switch(
               value: _isVideoPlaybackEnabled,
               onChanged: (value) {

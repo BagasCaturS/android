@@ -16,11 +16,39 @@ class _AccountPageState extends State<AccountPage> {
     'Saga Yo Mam',
     'Anita Blake Boy',
   ];
+  final int maxProfileCount = 5;
 
   void selectAccount(int index) {
     setState(() {
       selectedAccountIndex = index;
     });
+  }
+
+  void addProfile() {
+    if (accounts.length >= maxProfileCount) {
+      showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text('Max Profile Reached'),
+            content: Text('You have reached the maximum profile count.'),
+            actions: [
+              TextButton(
+                child: Text('OK'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+            ],
+          );
+        },
+      );
+    } else {
+      // Add the new profile
+      setState(() {
+        accounts.add('New Profile');
+      });
+    }
   }
 
   Widget buildAccountCard(int index) {
@@ -48,7 +76,6 @@ class _AccountPageState extends State<AccountPage> {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,6 +87,10 @@ class _AccountPageState extends State<AccountPage> {
         itemBuilder: (context, index) {
           return buildAccountCard(index);
         },
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: addProfile,
+        child: Icon(Icons.add),
       ),
     );
   }

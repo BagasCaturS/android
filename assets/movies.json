@@ -1,104 +1,152 @@
-{
-  "movies": [
-    {
-      "id": 1,
-      "movie_name": "The Shawshank Redemption",
-      "genre": "Drama",
-      "producer": "Niki Marvin",
-      "director": "Frank Darabont",
-      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "release_date": "1994-09-23",
-      "image_url": "https://images.fandango.com/ImageRenderer/500/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/21463/shawshankonesheet.jpg"
-    },
-    {
-      "id": 2,
-      "movie_name": "The Godfather",
-      "genre": "Crime, Drama",
-      "producer": "Albert S. Ruddy",
-      "director": "Francis Ford Coppola",
-      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-      "release_date": "1972-03-14",
-      "image_url": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
-    },
-    {
-      "id": 3,
-      "movie_name": "Pulp Fiction",
-      "genre": "Crime, Drama",
-      "producer": "Lawrence Bender",
-      "director": "Quentin Tarantino",
-      "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-      "release_date": "1994-10-14",
-      "image_url": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
-    },
-    {
-      "id": 4,
-      "movie_name": "The Dark Knight",
-      "genre": "Action, Crime, Drama",
-      "producer": "Emma Thomas, Charles Roven, Christopher Nolan",
-      "director": "Christopher Nolan",
-      "plot": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
-      "release_date": "2008-07-18",
-      "image_url": "https://resizing.flixster.com/WAHXGKleT3QvhqHUlFGIRgcQAjU=/206x305/v2/https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg"
-    },
-    {
-      "id": 5,
-      "movie_name": "Fight Club",
-      "genre": "Drama",
-      "producer": "Art Linson, Cean Chaffin, Ross Grayson Bell",
-      "director": "David Fincher",
-      "plot": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
-      "release_date": "1999-10-15",
-      "image_url": "https://resizing.flixster.com/0kbkzWG-fGf5yEZSmLw4VB_SpnQ=/206x305/v2/https://flxt.tmsimg.com/assets/p23069_p_v8_aa.jpg"
-    },
-    {
-      "id": 6,
-      "movie_name": "Schindler's List",
-      "genre": "Biography, Drama, History",
-      "producer": "Steven Spielberg, Gerald R. Molen, Branko Lustig",
-      "director": "Steven Spielberg",
-      "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-      "release_date": "1993-11-30",
-      "image_url": "https://m.media-amazon.com/images/I/81+H4lZVw+L._AC_UF894,1000_QL80_.jpg"
-    },
-    {
-      "id": 7,
-      "movie_name": "Forrest Gump",
-      "genre": "Drama, Romance",
-      "producer": "Wendy Finerman, Steve Tisch, Steve Starkey",
-      "director": "Robert Zemeckis",
-      "plot": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
-      "release_date": "1994-07-06",
-      "image_url": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/707d3da8c5a899ae82416fbec4a26bef3420d95b674bb2093745eecf615a3d47._RI_V_TTW_.jpg"
-    },
-    {
-      "id": 8,
-      "movie_name": "The Lord of the Rings: The Return of the King",
-      "genre": "Adventure, Drama, Fantasy",
-      "producer": "Barrie M. Osborne, Peter Jackson, Fran Walsh, Tim Sanders",
-      "director": "Peter Jackson",
-      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-      "release_date": "2003-12-17",
-      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216226i/61215384.jpg"
-    },
-    {
-      "id": 9,
-      "movie_name": "Inception",
-      "genre": "Action, Adventure, Sci-Fi",
-      "producer": "Emma Thomas, Christopher Nolan",
-      "director": "Christopher Nolan",
-      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-      "release_date": "2010-07-16",
-      "image_url": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg"
-    },
-    {
-      "id": 10,
-      "movie_name": "The Matrix",
-      "genre": "Action, Sci-Fi",
-      "producer": "Joel Silver",
-      "director": "Lana Wachowski, Lilly Wachowski",
-      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-      "release_date": "1999-03-31",
-      "image_url": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_UF894,1000_QL80_.jpg"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "movie_name": "The Shawshank Redemption",
+    "genre": "Drama",
+    "producer": "Niki Marvin",
+    "director": "Frank Darabont",
+    "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "release_date": "1994-09-23",
+    "image_url": "https://images.fandango.com/ImageRenderer/500/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/21463/shawshankonesheet.jpg"
+  },
+  {
+    "id": 2,
+    "movie_name": "The Godfather",
+    "genre": "Crime, Drama",
+    "producer": "Albert S. Ruddy",
+    "director": "Francis Ford Coppola",
+    "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "release_date": "1972-03-14",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+  },
+  {
+    "id": 3,
+    "movie_name": "Pulp Fiction",
+    "genre": "Crime, Drama",
+    "producer": "Lawrence Bender",
+    "director": "Quentin Tarantino",
+    "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "release_date": "1994-10-14",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+  },
+  {
+    "id": 4,
+    "movie_name": "The Dark Knight",
+    "genre": "Action, Crime, Drama",
+    "producer": "Emma Thomas, Charles Roven, Christopher Nolan",
+    "director": "Christopher Nolan",
+    "plot": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+    "release_date": "2008-07-18",
+    "image_url": "https://resizing.flixster.com/WAHXGKleT3QvhqHUlFGIRgcQAjU=/206x305/v2/https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg"
+  },
+  {
+    "id": 5,
+    "movie_name": "Fight Club",
+    "genre": "Drama",
+    "producer": "Art Linson, Cean Chaffin, Ross Grayson Bell",
+    "director": "David Fincher",
+    "plot": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+    "release_date": "1999-10-15",
+    "image_url": "https://resizing.flixster.com/0kbkzWG-fGf5yEZSmLw4VB_SpnQ=/206x305/v2/https://flxt.tmsimg.com/assets/p23069_p_v8_aa.jpg"
+  },
+  {
+    "id": 6,
+    "movie_name": "Schindler's List",
+    "genre": "Biography, Drama, History",
+    "producer": "Steven Spielberg, Gerald R. Molen, Branko Lustig",
+    "director": "Steven Spielberg",
+    "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "release_date": "1993-11-30",
+    "image_url": "https://m.media-amazon.com/images/I/81+H4lZVw+L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 7,
+    "movie_name": "Forrest Gump",
+    "genre": "Drama, Romance",
+    "producer": "Wendy Finerman, Steve Tisch, Steve Starkey",
+    "director": "Robert Zemeckis",
+    "plot": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+    "release_date": "1994-07-06",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/707d3da8c5a899ae82416fbec4a26bef3420d95b674bb2093745eecf615a3d47._RI_V_TTW_.jpg"
+  },
+  {
+    "id": 8,
+    "movie_name": "The Lord of the Rings: The Return of the King",
+    "genre": "Adventure, Drama, Fantasy",
+    "producer": "Barrie M. Osborne, Peter Jackson, Fran Walsh, Tim Sanders",
+    "director": "Peter Jackson",
+    "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "release_date": "2003-12-17",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216226i/61215384.jpg"
+  },
+  {
+    "id": 9,
+    "movie_name": "Inception",
+    "genre": "Action, Adventure, Sci-Fi",
+    "producer": "Emma Thomas, Christopher Nolan",
+    "director": "Christopher Nolan",
+    "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "release_date": "2010-07-16",
+    "image_url": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 10,
+    "movie_name": "The Matrix",
+    "genre": "Action, Sci-Fi",
+    "producer": "Joel Silver",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "release_date": "1999-03-31",
+    "image_url": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 11,
+    "movie_name": "The Silence of the Lambs",
+    "genre": "Crime, Drama, Thriller",
+    "producer": "Ron Bozman, Edward Saxon, Kenneth Utt",
+    "director": "Jonathan Demme",
+    "plot": "A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
+    "release_date": "1991-02-14",
+    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Silence_of_the_Lambs_%2528film%2529&psig=AOvVaw1-UzPubEMoMOj3U1RGjG1a&ust=1687193039657000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJDSsYCizf8CFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 12,
+    "movie_name": "Goodfellas",
+    "genre": "Biography, Crime, Drama",
+    "producer": "Irwin Winkler",
+    "director": "Martin Scorsese",
+    "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+    "release_date": "1990-09-19",
+    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0099685%2F&psig=AOvVaw2Nvmdfd6HITsoDT7elZyha&ust=1687193066333000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDf-4yizf8CFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 13,
+    "movie_name": "The Departed",
+    "genre": "Crime, Drama, Thriller",
+    "producer": "Brad Pitt, Brad Grey, Graham King",
+    "director": "Martin Scorsese",
+    "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    "release_date": "2006-10-06",
+    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0407887%2F&psig=AOvVaw1ZNnnE4JMw_N-6UwCCFbZB&ust=1687193082510000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCqxpSizf8CFQAAAAAdAAAAABAJ"
+  },
+  {
+    "id": 14,
+    "movie_name": "Interstellar",
+    "genre": "Adventure, Drama, Sci-Fi",
+    "producer": "Emma Thomas, Christopher Nolan, Lynda Obst",
+    "director": "Christopher Nolan",
+    "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "release_date": "2014-11-07",
+    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0816692%2F&psig=AOvVaw2-7gAgqF777EV-WYgkYzDI&ust=1687193105725000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNj75Z-izf8CFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 15,
+    "movie_name": "The Avengers",
+    "genre": "Action, Adventure, Sci-Fi",
+    "producer": "Kevin Feige",
+    "director": "Joss Whedon",
+    "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+    "release_date": "2012-05-04",
+    "image_url": "https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SY741_.jpg"
+  }
+]

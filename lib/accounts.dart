@@ -16,7 +16,7 @@ class _AccountPageState extends State<AccountPage> {
     'Saga Yo Mam',
     'Anita Blake Boy',
   ];
-  final int maxProfileCount = 5;
+  final int maxProfileCount = 6;
 
   void selectAccount(int index) {
     setState(() {
@@ -44,10 +44,40 @@ class _AccountPageState extends State<AccountPage> {
         },
       );
     } else {
-      // Add the new profile
-      setState(() {
-        accounts.add('New Profile');
-      });
+      // Show dialog to enter the profile name
+      showDialog(
+        context: context,
+        builder: (context) {
+          String profileName = '';
+
+          return AlertDialog(
+            title: Text('Add New Profile'),
+            content: TextField(
+              onChanged: (value) {
+                profileName = value;
+              },
+            ),
+            actions: [
+              TextButton(
+                child: Text('Cancel'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+              TextButton(
+                child: Text('Add'),
+                onPressed: () {
+                  // Add the new profile with the entered name
+                  setState(() {
+                    accounts.add(profileName);
+                  });
+                  Navigator.of(context).pop();
+                },
+              ),
+            ],
+          );
+        },
+      );
     }
   }
 

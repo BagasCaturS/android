@@ -107,13 +107,6 @@ class _HomePageState extends State<HomePage> {
       MaterialPageRoute(builder: (context) => AccountPage()),
     );
   }
-  //perlu implementasi profile
-  // void navigateToProfile() {
-  //   Navigator.push(
-  //     context,
-  //     MaterialPageRoute(builder: (context) => Profile()),
-  //   );
-  // }
 
   void searchMovies(String query) {
     if (query.isEmpty) {

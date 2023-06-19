@@ -48,7 +48,7 @@ class _LoginFormState extends State<LoginForm> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           const Text(
-            'Selamat Datang',
+            'Watch It.',
             style: TextStyle(
               fontSize: 36,
               // fontWeight: FontWeight.bold,

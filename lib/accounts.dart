@@ -12,7 +12,7 @@ class _AccountPageState extends State<AccountPage> {
   List<String> accounts = [
     'John Dis Nute',
     'Jane Smitherin Smith',
-    "Michael Poppin' Cherries",
+    "Michael Poppin' Legs",
     'Saga Yo Mam',
     'Anita Blake Boy',
   ];
